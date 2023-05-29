@@ -2,6 +2,7 @@ import React, {Fragment, useState} from 'react';
 
 const UserInput = () => {
     const [ input, setInput ] = useState('');
+
     return (
         <Fragment>
             <div className="mb-3">
@@ -22,6 +23,12 @@ const UserInput = () => {
                 <button type="submit" className="form-control btn btn-primary">
                     Submit
                 </button>
+            </div>
+
+            <div className="mb-3">
+                <p>
+                    { input }
+                </p>
             </div>
         </Fragment>
     );

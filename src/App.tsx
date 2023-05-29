@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import './App.scss';
 import UserInput from "./components/UerInput";
+import ResultChart from "./components/ResultChart";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
 
       <main className="px-3">
         <UserInput />
+        <ResultChart />
       </main>
 
       <footer className="mt-auto text-white-50">
